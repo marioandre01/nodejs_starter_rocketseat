@@ -22,7 +22,7 @@
 
 ## 💻 Projeto
 
-Esse projeto foi desenvolvido por meio do curso ReactJS Starter da [Rocketseat](https://app.rocketseat.com.br/node/curso-react-js).  
+Esse projeto foi desenvolvido por meio do curso NodeJS Starter da [Rocketseat](https://app.rocketseat.com.br/node/curso-node-js).  
 
 ## 📋 Tecnologias
 
