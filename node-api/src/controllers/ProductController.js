@@ -1,4 +1,4 @@
-//No Modelo- arquitetura MVC "Model View Controller" isso é chmado de controller
+//No Modelo- arquitetura MVC "Model View Controller" isso é chamado de controller
 //O ProductController models será o cara que vai lidar basicamente com as opreções 
 // que se pode ter em determinado model, por  exemplo, listagem, criação, atualização, criação e outros
 

@@ -30,12 +30,12 @@ const app = express();
 //Ao usar o metod POST colocar essa linha
 app.use(express.json());
 
-//usra o cors
+//usar o cors
 //Dentro da função do cors pode-se passar parametros para permitir quais dominios pode-se ter acesso a API, algumas configurações a mais de segurança e outros
 //Não colocando nenhum parametro, permite-se acesso a todos os dominios, e pode-se ser acessada publicamente
 app.use(cors());
 
-//Iniciandoo database DB
+//Iniciando o database DB
 mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true, useUnifiedTopology: true });
 
 //Fazer um require do arquivo de Product do models
@@ -66,7 +66,7 @@ app.get('/', (req, res) => {
 });*/
 
 //use() é como se fosse um coringa, ele  vai receber todo tipo de requisição
-//ele vai receber não sé GET, POST, PUT e DELETE, ele vai aceitar todas as requisições
+//ele vai receber não só GET, POST, PUT e DELETE, ele vai aceitar todas as requisições
 //Toda vez que se receber uma requisição a partir da rota "api", "api" é um prefixo para a rota
 //se não quise utilizar pode deixar sem
 //Da rota "/api" será enviado para "./src/routes"
