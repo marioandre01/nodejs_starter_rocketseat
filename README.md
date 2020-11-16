@@ -22,7 +22,7 @@
 
 ## 💻 Projeto
 
-Esse projeto foi desenvolvido por meio do curso NodeJS Starter da [Rocketseat](https://app.rocketseat.com.br/node/curso-node-js).  
+Esse projeto foi desenvolvido por meio do curso NodeJS Starter da [Rocketseat](https://app.rocketseat.com.br/node/curso-node-js). O projeto teve como objetivo construir um API REST utilizando os métodos HTTP GET, POST, PUT e DELETE para criar, mostrar, atualizar e deletar produtos contendo as informações "Título", "descrição" e URL.Para sua contrução foi usado o NodeJS com a biblioteca Express para lidar com as rotas. E para salvar as informações foi usado o banco de dados não relacional mongoDB. Assim utilizando um aplicação frontend configurada nesse cenário, é possivel fazer requisições a API para lisar informações de todos os produtos, listar um produto especifico traves do Id, atualizar e deletar informações. A listagem dos produtos foi configurada para paginar as informaões em 10 por vez. Para simular o frontend e testar a API foi utlizado o Insomnia.
 
 ## 📋 Tecnologias
 
